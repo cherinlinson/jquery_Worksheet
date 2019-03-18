@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.js">
+        </script>
+        <script type="text/javascript" language="javascript">
+        $(document).ready(function()
+        {
+            var para=$("p");
+            for(i=0;i<para.length;i++)
+            {
+                alert("Paragraph No: "+para[i].innerHTML);
+            }
+        });
+        </script>
+    </head>
+    <body>
+        <div>
+            <p class="myclass">First Para.</p>
+            <p id="myid">Second Para.</p>
+            <p>Third Para.</p>
+        </div>
+    </body>
+</html>
